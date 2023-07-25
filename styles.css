@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', 'Times New Roman';
+}
+.first_section {
+    background-color: #1F2937;
+    color: #fff;
+}
+.header {
+    display: flex;
+    font-size: 24px;
+}
+
+.header .title {
+    margin-left: 50px;
+    margin-right: 800px;
+}
+
+.links {
+    margin-right: 20px;
+    font-size: 20px;
+}
