@@ -11,6 +11,8 @@
 .header {
     display: flex;
     font-size: 24px;
+    flex: 1;
+    flex-shrink: 75%;
 }
 
 .header .logo {
@@ -68,9 +70,10 @@
 
 .second_section {
     display: flex;
-    margin: auto;
-    margin-bottom: 200px;
+    margin-top: 50px;
+    margin-bottom: 100px;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .info {
@@ -95,4 +98,25 @@
     text-align: center;
 }
 
+.third_section {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
 
+.quote {
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 36px;
+    margin: 10px;
+}
+
+.author {
+    text-align: right;
+    font-weight: bold;
+    font-size: 18px;
+    color: #1F2937;
+}
