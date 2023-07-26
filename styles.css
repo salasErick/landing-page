@@ -18,7 +18,7 @@
 .header .logo {
     margin-left: 100px;
     margin-right: 50px;
-    margin-right: 800px;
+    margin-right: 100px;
     padding: 20px;
     height: 60px;
     width: auto;
@@ -115,8 +115,42 @@
 }
 
 .author {
-    text-align: right;
     font-weight: bold;
     font-size: 18px;
     color: #1F2937;
 }
+
+.fourth_section {
+    background-color: #3882F6;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 80px;
+    border-radius: 15px;
+    display: flex;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: 40px;
+    color: white;
+}
+.message {
+    color: white;
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+.sign_up2 {
+    margin-left: 400px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    width: 150px;
+    background-color: #3882F6;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
