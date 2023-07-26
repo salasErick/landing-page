@@ -17,8 +17,7 @@
 
 .header .logo {
     margin-left: 100px;
-    margin-right: 50px;
-    margin-right: 100px;
+    margin-right: 1000px;
     padding: 20px;
     height: 60px;
     width: auto;
@@ -152,5 +151,14 @@
     background-color: #3882F6;
     border: 2px solid white;
     border-radius: 10px;
+}
+
+.footer {
+    background-color: #1F2937;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 30px;
 }
 
