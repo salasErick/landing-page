@@ -14,17 +14,44 @@
 }
 
 .header .title {
-    margin-left: 50px;
+    margin-left: 100px;
+    margin-right: 50px;
     margin-right: 800px;
+    padding: 10px;
 }
 
 .links {
     margin-right: 20px;
-    font-size: 20px;
+    font-size: 18px;
+    padding: 10px;
 }
 
 .main {
     font-size: 48px;
-    padding: 50px;
+    font-weight: bold;
+    color:#F9FAF8;
+    padding-left: 100px;
+    padding-top: 100px;
     max-width: 400px;
+    margin-right: 100px;
+}
+
+#text {
+    max-width: 450px;
+    margin-left: 100px;
+    font-size: 18px;
+}
+
+#signup {
+    font-size: 18px;
+    color:#F9FAF8;
+    background-color: #3882F6; 
+    border-color: #3882F6;
+    padding: 0;
+    border-radius: 7.5px;
+    margin-left: 100px;
+    margin-top: 25px;
+    padding: 5px;
+    width: 125px;
+    height: auto;
 }
